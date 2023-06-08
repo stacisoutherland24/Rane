@@ -1,0 +1,31 @@
+<div class="background">
+
+  <mat-toolbar style="height:3rem;background-color: black;"><span class="haley">Rane Beauty</span>
+  </mat-toolbar>
+
+  <div style="display:flex;justify-content:end;">
+
+    <a class="space" [routerLink]="['/']">Home</a>
+    <a class="space" [routerLink]="['/about-me']">About Me</a>
+    <a class="space">Lashes</a>
+    <a class="space">Makeup</a>
+
+  </div>
+
+  <div style="display:flex;justify-content:center;">
+    <button class="button" (click)="goToSquarespace()">Book Now</button>
+  </div>
+
+  <div style="padding:2rem;display:flex;justify-content: space-around;">
+
+    <img style="height:1054px;width:1600px;border-color:black;border-style: double;" class="image"
+      src="assets\Images\stock.jpeg">
+
+
+
+    <mat-toolbar class="footer" style="display:flex;justify-content:center;background-color: black;"><span
+        class="footerWords">2023
+        Rane
+        Beauty | All Rights
+        Reserved.</span></mat-toolbar>
+  </div>
