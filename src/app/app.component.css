@@ -3,12 +3,14 @@
      height:72px;
   background-color: #000000;
   border-radius: 10px;
-  color: #FFFFFF;
+  color:#ccc;
   cursor: pointer;
   font-family: 'Aqua Grotesque';
   font-size : 1.5rem;
   font-weight: 100;
    display: inline;
+   margin-bottom: 50px;
+   margin-top: 50px;
   }
 .footer {
 position: fixed;
@@ -18,9 +20,9 @@ height:2.5rem;
 
 }
 .footerWords{
-font-size:small;
-font-family: 'Aqua Grotesque' ;
-     color: white;
+font-size:medium;
+font-family: 'Lato' ;
+     color: #ccc;
 }
 
 .button:hover {
@@ -33,25 +35,64 @@ font-family: 'Aqua Grotesque' ;
 .haley{
      font-size:1.5rem;
      font-family: 'Aqua Grotesque' ;
-     color: white;
+     color:#ccc;
 }
 
 .background{
-     background-color: darkgray;
-     height:100%;
-     background-image: none;
+     
+     
+     background-color:white ;
+  
 }
 
 .space{
      padding: 10px;
      display:flex;
      font-size: large;
-     font-family: 'Aqua Grotesque' ;
+     font-family: 'Lato' ;
      text-decoration: none;
 
 }
 
-a:visited, a:hover, a:focus {
-    text-decoration: none;
-    color: #000;
+.bg-dark {
+    background-color:#000000!important;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-dark .navbar-nav .nav-link .navbar-brand{
+  color:#ccc;
 }
