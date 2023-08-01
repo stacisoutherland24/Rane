@@ -1,1 +1,27 @@
-<app-home></app-home>
+<div class="background">
+     <nav class="navbar  navbar-expand-lg navbar-dark bg-dark" style="background-color: black">
+          <a class="navbar-brand haley" href="#">Haley Rane Beauty Studio</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                         <a class="nav-link" routerLink="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" routerLink="about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" routerLink="gallery">Lash Gallery</a>
+                    </li>
+               </ul>
+          </div>
+     </nav>
+     <main>
+          <router-outlet></router-outlet>
+     </main>
+     <mat-toolbar class="footer" style="display: flex; justify-content: center; background-color: black"><span
+               class="footerWords">2023 Haley Rane Beauty Studio | All Rights Reserved.</span></mat-toolbar>
+</div>

@@ -13,14 +13,21 @@ import { RouterModule } from '@angular/router';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
-const appRoutes: Routes = [
-  { path: '', component: AppComponent },
+const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'about-me', component: AboutMeComponent },
+  { path: 'gallery', component: GalleryComponent },
 ];
 
 @NgModule({
-  declarations: [AppComponent, AboutMeComponent, HomeComponent],
+  declarations: [
+    AppComponent,
+    AboutMeComponent,
+    HomeComponent,
+    GalleryComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -28,7 +35,7 @@ const appRoutes: Routes = [
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(routes),
   ],
   providers: [],
   bootstrap: [AppComponent],
