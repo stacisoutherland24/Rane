@@ -10,4 +10,7 @@ export class HomeComponent {
   goToSquarespace() {
     window.location.href = 'https://lashed-by-haley-rane.square.site';
   }
+  goToXtreme() {
+    window.location.href = 'https://www.xtremelashes.com/';
+  }
 }
