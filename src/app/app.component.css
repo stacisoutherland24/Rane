@@ -32,11 +32,6 @@ font-family: 'Lato' ;
 
 
 
-.haley{
-     font-size:1.5rem;
-     font-family: 'Aqua Grotesque' ;
-     color:#ccc;
-}
 
 .background{
      
@@ -93,6 +88,90 @@ img {
   border-radius: 10px;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.navbar-dark .navbar-nav .nav-link .navbar-brand{
-  color:#ccc;
+ .navbar-custom {
+    height: 25vh; /* Set the height to 25% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This will center the content vertically */
+            padding: 1rem 0; /* Increase the vertical padding to make the navbar taller */
+        }
+        
+        .navbar-nav .nav-link {
+            padding: 0.5rem 1rem; /* Adjust the padding for each nav item for better spacing and appearance */
+        }
+
+        /* If you want to increase the logo size, you'll need to add custom styles */
+        .navbar-brand {
+          align-items: center;
+     font-family: 'Aqua Grotesque' ;
+     color:black;
+            font-size: 2.5rem; /* Adjust the font size as needed */
+            padding: 0.25rem 0; /* Adjust the padding to align the logo vertically within the navbar */
+        }
+
+        /* For the Instagram icon */
+        .navbar .bi-instagram {
+            font-size: 2rem; /* Adjust the size of the Instagram icon */
+            padding: 0 1rem; /* Add some padding to the right */
+        }
+             body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .background {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+        }
+        main {
+            flex-grow: 1;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+           .line {
+            height: 5px; /* Adjust to match the desired thickness of the line */
+        }
+        .line-top {
+           background-color: #000000; /* Top line color */
+        }
+        .line-bottom {
+            background-color: #000000; /* Bottom line color */
+        }
+        .line-accent {
+            height: 5px; /* Adjust to match the desired thickness of the accent line */
+            background-color: #800080; /* Accent line color (purple) */
+        }
+        .navbar-custom {
+            padding: 0.5rem 0; /* Adjust the vertical padding of the navbar */
+        }
+
+.navbar-custom .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.navbar-brand-centered {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (min-width: 992px) { /* Adjust this breakpoint as needed */
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .navbar-custom .container-fluid {
+    justify-content: space-between;
+  }
+}
+
+

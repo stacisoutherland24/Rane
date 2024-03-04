@@ -93,14 +93,34 @@ img:hover {
   margin-bottom: 10px;
 }
 
-img {
-  width: 20rem;
-  height: 10rem;
+
+.img2 {
+  width: 12rem;
+  height: 6rem;
     cursor: pointer;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 10px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .navbar-dark .navbar-nav .nav-link .navbar-brand{
   color:#ccc;
 }
+ .navbar-custom {
+            padding: 1rem 0; /* Increase the vertical padding to make the navbar taller */
+        }
+        
+        .navbar-nav .nav-link {
+            padding: 0.5rem 1rem; /* Adjust the padding for each nav item for better spacing and appearance */
+        }
+
+        /* If you want to increase the logo size, you'll need to add custom styles */
+        .navbar-brand {
+            font-size: 1.5rem; /* Adjust the font size as needed */
+            padding: 0.25rem 0; /* Adjust the padding to align the logo vertically within the navbar */
+        }
+
+        /* For the Instagram icon */
+        .navbar .bi-instagram {
+            font-size: 2rem; /* Adjust the size of the Instagram icon */
+            padding: 0 1rem; /* Add some padding to the right */
+        }

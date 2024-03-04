@@ -1,12 +1,15 @@
 <div class="background">
-     <nav class="navbar  navbar-expand-lg navbar-dark bg-dark" style="background-color: black">
-          <a class="navbar-brand haley" href="#">Haley Rane Beauty Studio</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+     <div class="line line-top"></div>
+     <div class="line line-accent"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+     <div class="container-fluid">
+          <a class="navbar-brand navbar-brand-centered" routerLink="/">Haley Rane Beauty Studio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav ml-auto">
+               <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                          <a class="nav-link" routerLink="/">Home</a>
                     </li>
@@ -17,11 +20,28 @@
                          <a class="nav-link" routerLink="gallery">Lash Gallery</a>
                     </li>
                </ul>
+             
           </div>
-     </nav>
+     </div>
+</nav>
+
+     <div class="line line-accent"></div>
+     <div class="line line-bottom"></div>
      <main>
           <router-outlet></router-outlet>
      </main>
-     <mat-toolbar class="footer" style="display: flex; justify-content: center; background-color: black"><span
-               class="footerWords">2023 Haley Rane Beauty Studio | All Rights Reserved.</span></mat-toolbar>
+   
+<footer class="bg-light">
+     <div class="line line-top"></div>
+     <div class="line line-accent"></div>
+     <div class="container-fluid py-3">
+          <div class="d-flex justify-content-center align-items-center">
+               <span class="text-muted">2023 Haley Rane Beauty Studio | All Rights Reserved.</span>
+          </div>
+     </div>
+     <div class="line line-top"></div>
+     <div class="line line-accent"></div>
+</footer>
+    
+          
 </div>

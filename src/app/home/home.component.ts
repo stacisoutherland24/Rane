@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   title = 'Rane Beauty Studio';
   goToSquarespace() {
-    window.location.href = 'https://lashed-by-haley-rane.square.site';
+    window.open('https://lashed-by-haley-rane.square.site','blank');
   }
   goToXtreme() {
-    window.location.href = 'https://www.xtremelashes.com/';
+    window.open('https://www.xtremelashes.com','blank')
   }
 }
