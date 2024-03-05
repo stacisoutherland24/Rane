@@ -173,5 +173,15 @@ img {
     justify-content: space-between;
   }
 }
+.call-us {
+    background-color:aquamarine; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
+.call-us:hover {
+    background-color:#800080;
+}
 
