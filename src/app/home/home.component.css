@@ -124,3 +124,14 @@ img:hover {
             font-size: 2rem; /* Adjust the size of the Instagram icon */
             padding: 0 1rem; /* Add some padding to the right */
         }
+        .call-us {
+    background-color:rgb(255, 127, 217); 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.call-us:hover {
+    background-color:green !important;
+}
